@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIGuide – BVCEC Campus Assistant</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- ================= LANDING PAGE ================= -->
+<div class="landing" id="landing">
+
+    <!-- ===== TOP CENTER LOGO ===== -->
+    <div class="landing-top">
+        <img src="{{ url_for('static', filename='images/logo.jpg') }}" class="landing-logo">
+        <h2>BVC Group of Institutions</h2>
+        <p>Amalapuram • Odalarevu • Rajahmundry</p>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="landing-main">
+
+        <!-- LEFT : IMAGE CARDS (55%) -->
+        <div class="landing-left">
+
+            <div class="image-card active">
+                <img src="{{ url_for('static', filename='images/ai_chatbot.png') }}" alt="AI Chatbot">
+                <p>AI-powered Campus Chatbot Interface</p>
+            </div>
+
+            <div class="image-card">
+                <img src="{{ url_for('static', filename='images/chatbot architecture.png') }}" alt="Architecture">
+                <p>UNIGuide System Architecture Flow</p>
+            </div>
+
+            <div class="image-card">
+                <img src="{{ url_for('static', filename='images/response flow.png') }}" alt="Response Flow">
+                <p>Natural Language Query → Smart Response</p>
+            </div>
+
+            <div class="image-card">
+                <img src="{{ url_for('static', filename='images/tech stack.png') }}" alt="Tech Stack">
+                <p>Robust Tech Stack Used in UNIGuide</p>
+            </div>
+
+            <div class="image-card">
+                <img src="{{ url_for('static', filename='images/use case diag.png') }}" alt="Use Case">
+                <p>Students, Faculty & Admin Use Cases</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT : TEXT CONTENT (45%) -->
+        <div class="landing-right">
+
+            <h1>UNIGuide 🤖</h1>
+
+            <h3>
+                A Smart Assistant System for Academic and <br>
+                Campus Related Queries for BVCEC
+            </h3>
+
+            <p class="desc">
+                UNIGuide is an AI-powered smart campus assistant developed
+                exclusively for <b>BVC Engineering College (BVCEC)</b>.
+                It enables students, faculty, and visitors to access
+                academic information, student data, admissions guidance,
+                campus facilities, and events using natural language.
+            </p>
+
+            <ul>
+                <li>🎓 Academic & Course Information</li>
+                <li>👨‍🎓 Student Details & Analytics</li>
+                <li>📝 Admissions & Eligibility Queries</li>
+                <li>🎉 Campus Events & Activities</li>
+                <li>🏫 College Administration Information</li>
+            </ul>
+
+            <button class="start-btn" onclick="openChat()">
+                Launch UNIGuide 🚀
+            </button>
+
+        </div>
+    </div>
+</div>
+
+<!-- ================= BACKGROUND FOR CHATBOT ================= -->
+<div class="background"></div>
+
+<!-- ================= CHATBOT UI (UNCHANGED) ================= -->
+<div class="chat-container" id="chatbotContainer">
+    <div class="chat-header">
+        UNIGuide 🤖<br>
+        <small>BVCEC Smart Campus Assistant</small>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+        <div class="message bot-message">
+            Hello 👋 I'm <b>UNIGuide</b> — your BVCEC Smart Assistant!
+            Ask me any campus-related questions 😊
+        </div>
+    </div>
+
+    <div class="chat-footer">
+        <input id="userInput" placeholder="Ask here..." />
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+<!-- ================= SCROLLING BANNER ================= -->
+<div class="scrolling-banner">
+• CSM Batch 8 (2022 – 2026) • CSM Batch 8 (2022 – 2026) •
+</div>
+
+<!-- ================= MAIN CHATBOT JS ================= -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<!-- ================= LANDING PAGE JS ONLY ================= -->
+<script>
+function openChat() {
+    document.getElementById("landing").style.display = "none";
+    document.getElementById("chatbotContainer").style.display = "block";
+    setTimeout(() => {
+        document.getElementById("userInput").focus();
+    }, 300);
+}
+
+/* IMAGE CARD ROTATION – 2 SECONDS */
+let cards = document.querySelectorAll(".image-card");
+let idx = 0;
+
+setInterval(() => {
+    cards.forEach(card => card.classList.remove("active"));
+    idx = (idx + 1) % cards.length;
+    cards[idx].classList.add("active");
+}, 2000);
+</script>
+
+</body>
+</html>

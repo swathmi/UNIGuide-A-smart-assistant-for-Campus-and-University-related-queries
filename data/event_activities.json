@@ -1,0 +1,328 @@
+{
+  "events_overview": [
+    "Technical Events",
+    "Workshops",
+    "Seminars",
+    "Guest Lectures",
+    "Hackathons",
+    "Technical Symposiums",
+    "Coding Competitions",
+    "Paper Presentations",
+    "Project Expos",
+    "Industrial Visits",
+    "Skill Development Programs",
+    "Certification Programs",
+    "Cultural Events",
+    "College Fests",
+    "Freshers Day",
+    "Farewell Events",
+    "Traditional Day",
+    "Talent Shows",
+    "Literary Events",
+    "Photography & Media Events",
+    "Sports Events",
+    "Annual Sports Meet",
+    "Inter-college Sports Tournaments",
+    "Yoga & Fitness Activities",
+    "Athletics Events",
+    "Club Activities",
+    "Coding Clubs",
+    "Robotics / AI Clubs",
+    "Cultural Clubs",
+    "Literary Clubs",
+    "Entrepreneurship / E-Cell Activities",
+    "Professional Society Activities",
+    "NSS Activities",
+    "NCC Activities",
+    "Community Service Programs",
+    "Social Awareness Campaigns",
+    "Blood Donation Camps",
+    "Swachh Bharat Activities",
+    "Environmental Awareness Programs",
+    "Startup & Innovation Events",
+    "Entrepreneurship Development Programs",
+    "Career Guidance Programs",
+    "Placement Training Events",
+    "Soft Skills & Personality Development Programs",
+    "Alumni Interaction Programs",
+    "Industry Interaction Programs",
+    "Student Achievements & Awards",
+    "Faculty Achievements",
+    "External Competition Participation",
+    "National / State Level Participation"
+  ],
+
+  "technical_events": {
+    "definition": [
+      "Technical events are academic activities aimed at enhancing students’ technical knowledge and practical skills."
+    ],
+    "purpose": [
+      "To strengthen technical foundations",
+      "To promote practical application of concepts"
+    ],
+    "student_activities": [
+      "Participation in technical competitions",
+      "Project demonstrations",
+      "Problem-solving activities"
+    ],
+    "faculty_activities": [
+      "Event coordination",
+      "Evaluation of student work",
+      "Technical mentoring"
+    ],
+    "benefits_for_students": [
+      "Improves technical competence",
+      "Enhances placement readiness"
+    ],
+    "benefits_for_faculty": [
+      "Encourages academic mentoring",
+      "Improves student engagement"
+    ]
+  },
+
+  "hackathons": {
+    "definition": [
+      "A hackathon is an innovation-driven event where participants collaboratively develop solutions within a limited time."
+    ],
+    "purpose": [
+      "To encourage innovation and creativity",
+      "To apply theoretical knowledge to real-world problems"
+    ],
+    "student_activities": [
+      "Team-based coding",
+      "Prototype development",
+      "Idea presentation"
+    ],
+    "faculty_activities": [
+      "Mentoring teams",
+      "Evaluating solutions",
+      "Providing technical guidance"
+    ],
+    "benefits_for_students": [
+      "Enhances problem-solving skills",
+      "Boosts internship and placement opportunities"
+    ],
+    "benefits_for_faculty": [
+      "Promotes research mentorship",
+      "Encourages innovation culture"
+    ]
+  },
+
+  "workshops": {
+    "definition": [
+      "Workshops are hands-on training programs focused on specific skills or technologies."
+    ],
+    "purpose": [
+      "To provide practical exposure",
+      "To bridge theory and practice"
+    ],
+    "student_activities": [
+      "Hands-on practice",
+      "Tool-based learning"
+    ],
+    "faculty_activities": [
+      "Serving as resource persons",
+      "Organizing workshop sessions"
+    ],
+    "benefits_for_students": [
+      "Skill enhancement",
+      "Industry readiness"
+    ],
+    "benefits_for_faculty": [
+      "Knowledge upgradation",
+      "Industry exposure"
+    ]
+  },
+
+  "seminars": {
+    "definition": [
+      "Seminars are expert-led academic sessions on emerging technologies and concepts."
+    ],
+    "student_activities": [
+      "Attending expert talks",
+      "Participating in discussions"
+    ],
+    "faculty_activities": [
+      "Session moderation",
+      "Academic coordination"
+    ],
+    "benefits_for_students": [
+      "Improves subject awareness",
+      "Enhances career knowledge"
+    ],
+    "benefits_for_faculty": [
+      "Academic enrichment",
+      "Research exposure"
+    ]
+  },
+
+  "guest_lectures": {
+    "definition": [
+      "Guest lectures are sessions delivered by industry professionals or academic experts."
+    ],
+    "student_activities": [
+      "Interaction with industry experts",
+      "Career guidance sessions"
+    ],
+    "faculty_activities": [
+      "Inviting speakers",
+      "Session coordination"
+    ],
+    "benefits_for_students": [
+      "Industry exposure",
+      "Career motivation"
+    ],
+    "benefits_for_faculty": [
+      "Industry-academia interaction"
+    ]
+  },
+
+  "cultural_events": {
+    "definition": [
+      "Cultural events encourage creativity, tradition, and cultural expression."
+    ],
+    "student_activities": [
+      "Dance, music, and drama performances",
+      "Participation in cultural competitions"
+    ],
+    "faculty_activities": [
+      "Event supervision",
+      "Student coordination"
+    ],
+    "benefits_for_students": [
+      "Personality development",
+      "Stress relief"
+    ],
+    "benefits_for_faculty": [
+      "Student engagement"
+    ]
+  },
+
+  "sports_events": {
+    "definition": [
+      "Sports events promote physical fitness, teamwork, and discipline."
+    ],
+    "student_activities": [
+      "Participation in indoor and outdoor games",
+      "Inter-college tournaments"
+    ],
+    "faculty_activities": [
+      "Sports coordination",
+      "Team mentoring"
+    ],
+    "benefits_for_students": [
+      "Physical fitness",
+      "Team spirit"
+    ],
+    "benefits_for_faculty": [
+      "Leadership development"
+    ]
+  },
+
+  "club_activities": {
+    "definition": [
+      "Club activities promote extracurricular involvement and skill development."
+    ],
+    "student_activities": [
+      "Participation in club events",
+      "Event organization"
+    ],
+    "faculty_activities": [
+      "Club mentorship",
+      "Activity supervision"
+    ],
+    "benefits_for_students": [
+      "Confidence building",
+      "Skill enhancement"
+    ],
+    "benefits_for_faculty": [
+      "Student mentoring"
+    ]
+  },
+
+  "nss_activities": {
+    "definition": [
+      "NSS activities focus on social service and community development."
+    ],
+    "student_activities": [
+      "Blood donation camps",
+      "Village adoption programs",
+      "Cleanliness drives"
+    ],
+    "faculty_activities": [
+      "Program coordination",
+      "Student supervision"
+    ],
+    "benefits_for_students": [
+      "Social responsibility",
+      "Leadership skills"
+    ],
+    "benefits_for_faculty": [
+      "Community engagement"
+    ]
+  },
+
+  "ncc_activities": {
+    "definition": [
+      "NCC activities focus on discipline, leadership, and national service."
+    ],
+    "student_activities": [
+      "Drills and training",
+      "Participation in national camps"
+    ],
+    "faculty_activities": [
+      "Officer guidance",
+      "Administrative supervision"
+    ],
+    "benefits_for_students": [
+      "Discipline",
+      "Leadership development"
+    ],
+    "benefits_for_faculty": [
+      "Organizational leadership"
+    ]
+  },
+
+  "innovation_and_career_programs": {
+    "definition": [
+      "Innovation and career programs prepare students for entrepreneurship and professional growth."
+    ],
+    "student_activities": [
+      "Startup events",
+      "Career guidance sessions",
+      "Placement training"
+    ],
+    "faculty_activities": [
+      "Mentoring startups",
+      "Career counseling support"
+    ],
+    "benefits_for_students": [
+      "Career readiness",
+      "Entrepreneurial mindset"
+    ],
+    "benefits_for_faculty": [
+      "Industry collaboration"
+    ]
+  },
+
+  "recognition_and_participation": {
+    "definition": [
+      "Recognition activities highlight achievements and participation at various levels."
+    ],
+    "student_activities": [
+      "Participation in external competitions",
+      "Receiving awards and recognitions"
+    ],
+    "faculty_activities": [
+      "Achieving academic awards",
+      "Representing institution externally"
+    ],
+    "benefits_for_students": [
+      "Motivation",
+      "Institutional exposure"
+    ],
+    "benefits_for_faculty": [
+      "Professional recognition"
+    ]
+  }
+}
